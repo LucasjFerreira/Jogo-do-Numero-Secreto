@@ -1,5 +1,5 @@
 let listadenumerosSorteados= [];
-let numeromaximojogoSecreto=10;
+let numeromaximojogoSecreto=100;
 let numeroSecreto = gerarNumeroAleatorio(); 
 let tentativas = 1;
 
@@ -13,7 +13,7 @@ function exibirtextonatela(tag,texto){
     function mensageminicial(){
         
     exibirtextonatela('h1','Jogo do Número Secreto');
-    exibirtextonatela('p','Escolha um Número de 1 a 10');
+    exibirtextonatela('p','Escolha um Número de 1 a 100');
 
     }
 mensageminicial();
