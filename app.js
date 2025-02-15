@@ -20,7 +20,7 @@ mensageminicial();
     function verificarChute(){
         let chute=document.querySelector('input').value;
     if (chute == numeroSecreto){
-        exibirtextonatela('h1','Você acertou!');
+        exibirtextonatela('h1','Isso ai Você acertou!');
         let palavratentativas = tentativas >1?'Tentativas':'Tentativa';
         let mensagemtentativas=`Você descobriu o Numero Secreto com ${tentativas} ${palavratentativas}!`;
         exibirtextonatela('p',mensagemtentativas);
